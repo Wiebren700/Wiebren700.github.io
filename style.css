@@ -56,7 +56,7 @@ float: left;
 }
 
 .head-font {
-    font-size: 20;
+    font-size: 24;
     text-align: center;
     color: #fcef3b;
     font-weight: bold;
@@ -70,7 +70,7 @@ float: left;
 }
 
 .subhead-font {
-    font-size: 9;
+    font-size: 12;
     text-align: center;
     color: #009b03;
     padding: 1px;
