@@ -1,6 +1,6 @@
 
 .snackbox{
-font-size: 16;
+font-size: 26;
 text-align: center;
 color: #ffffff;
 font-family: 'Lexend Deca', sans-serif;
@@ -22,6 +22,7 @@ float: left;
 
 .total-font {
     width: 40%;
+    font-size: 26;
     color: #000000;
     font-weight: bold;
     padding: 5px;
@@ -31,7 +32,7 @@ float: left;
 
 .head-font {
     width: 80%;
-    font-size: 20;
+    font-size: 40;
     text-align: center;
     color: #fcef3b;
     font-weight: bold;
@@ -46,7 +47,7 @@ float: left;
 
 .subhead-font {
     width: 15%;
-    font-size: 14;
+    font-size: 24;
     text-align: center;
     color: #009b03;
     padding: 1px;
