@@ -1,6 +1,7 @@
 <html>
     <head>
-        <title>Scouting Snek Lijst</title>
+        <title>Snek Calculator</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <script>
@@ -33,11 +34,15 @@
 
             }
         </script>
+        <div class = "head-font">
+            DE SNEK CALCULATOR
+            <div class = "subhead-font"> Voor het calculeren van uw snack bedrag</div>
+        </div>
         <FORM Name="myform">
             
-            <div>
+            <div class="snackbox">
                 Snack 1:    
-                <SELECT NAME="snack1Item" onChange="calculatePrice()" id="snack1Item">
+                <SELECT class = "select-font" NAME="snack1Item" onChange="calculatePrice()" id="snack1Item">
                 <OPTION value="0">Kies snack</OPTION>
                 <OPTION value="2">Patat klein €2.00</OPTION>
                 <OPTION value="2.25">Patat normaal €2.25</OPTION>
@@ -128,7 +133,7 @@
 
                 </SELECT>
                 Saus 1:
-                <SELECT NAME="saus1Item" onChange="calculatePrice()" id="saus1Item">
+                <SELECT class = "select-font" NAME="saus1Item" onChange="calculatePrice()" id="saus1Item">
                     <OPTION value="0">Geen saus</OPTION>
                     <OPTION value="0.50">Mayonaise portie €0.50</OPTION>
                     <OPTION value="0.75">Mayonaise kleine beker €0.75</OPTION>
@@ -157,9 +162,9 @@
                 </SELECT>
             </div>
 
-            <div>
+            <div class="snackbox">
                 Snack 2:    
-                <SELECT NAME="snack2Item" onChange="calculatePrice()" id="snack2Item">
+                <SELECT class = "select-font" NAME="snack2Item" onChange="calculatePrice()" id="snack2Item">
                 <OPTION value="0">Kies snack</OPTION>
                 <OPTION value="2">Patat klein €2.00</OPTION>
                 <OPTION value="2.25">Patat normaal €2.25</OPTION>
@@ -250,7 +255,7 @@
 
                 </SELECT>
                 Saus 2:
-                <SELECT NAME="saus2Item" onChange="calculatePrice()" id="saus2Item">
+                <SELECT class = "select-font" NAME="saus2Item" onChange="calculatePrice()" id="saus2Item">
                     <OPTION value="0">Geen saus</OPTION>
                     <OPTION value="0.50">Mayonaise portie €0.50</OPTION>
                     <OPTION value="0.75">Mayonaise kleine beker €0.75</OPTION>
@@ -279,9 +284,9 @@
                 </SELECT>
             </div>
         </FORM>
-        <div>Totaal bedrag: € <INPUT type="text" id="PicExtPrice" Size=14 readonly></div>
+        <div class="snackbox"> Totaal bedrag: € <INPUT class="total-font" type="text" id="PicExtPrice" readonly></div>
         <br>
         <br>
-        <div>Link naar de prijslijst: <a href="http://www.smulpaaproden.nl/snackbar/pdf/prijslijst-smulpaap.pdf" target="_blank">Snek prijslijst</a></div>
+        <div>Link naar de prijslijst: <a href="http://smulpaaproden.nl/snackbar/" target="_blank">Snek prijslijst</a></div>
     </body>
 </html>
