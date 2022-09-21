@@ -30,7 +30,6 @@ float: left;
 }
 
 .head-font {
-    width: 80%;
     font-size: 24;
     text-align: center;
     color: #fcef3b;
@@ -45,7 +44,6 @@ float: left;
 }
 
 .subhead-font {
-    width: 15%;
     font-size: 16;
     text-align: center;
     color: #009b03;
