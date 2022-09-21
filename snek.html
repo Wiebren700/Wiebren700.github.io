@@ -282,10 +282,734 @@
                     <OPTION value="0.70">Chilisaus/vlammensaus €0.70</OPTION>
                 </SELECT>
             </div>
+            <div class="snackbox">
+                3:    
+                <SELECT class = "select-font" NAME="snack3Item" onChange="calculatePrice()" id="snack3Item">
+                <OPTION value="0">Kies snack</OPTION>
+                <OPTION value="2">Patat klein €2.00</OPTION>
+                <OPTION value="2.25">Patat normaal €2.25</OPTION>
+                <OPTION value="7.50">Patat 'Smulpaap' €7.50</OPTION>
+                <OPTION value="7.50">Patat shoarma €7.50</OPTION>
+                <OPTION value="7.50">Patat stoofvlees €7.50</OPTION>
+                <OPTION value="7.50">Patat boeren (boerenpatat) €7.50</OPTION>
+                <OPTION value="9.50">Patat Kapsalon €9.50</OPTION>
+
+                <OPTION value="2.50">Milkshake klein €2.50</OPTION>
+                <OPTION value="3.00">Milkshake middel €3.00</OPTION>
+                <OPTION value="3.50">Milkshake groot €3.50</OPTION>
+
+                <OPTION value="2.20">Bamischijf €2.20</OPTION>
+                <OPTION value="2.70">Berehap €2.70</OPTION>
+                <OPTION value="3.25">Bitterballen €3.25</OPTION>
+                <OPTION value="2.40">Boerenbrok €2.40</OPTION>
+                <OPTION value="2.30">Braadworst €2.30</OPTION>
+                <OPTION value="2.75">Eierbal €2.75</OPTION>
+                <OPTION value="2.00">Frikandel €2.00</OPTION>
+                <OPTION value="2.50">Frikandel speciaal €2.50</OPTION>
+                <OPTION value="3.40">Frikandel XXL €3.40</OPTION>
+                <OPTION value="3.30">Gehaktbal (jalalala) €3.30</OPTION>
+                <OPTION value="2.25">Goulashkroket €2.25</OPTION>               
+                <OPTION value="2.25">Groentekroket €2.25</OPTION>
+                <OPTION value="5.50">Halve kip €5.50</OPTION>
+                <OPTION value="2.30">Hamburger €2.30</OPTION>
+                <OPTION value="2.00">Ham-kaassouflé €2.00</OPTION>
+                <OPTION value="2.40">Hete donder €2.40</OPTION>
+                <OPTION value="2.50">Huzarensalade €2.50</OPTION>
+                <OPTION value="2.25">Kaaskroket €2.25</OPTION>  
+                <OPTION value="2.00">Kaassouflé €2.00</OPTION>
+                <OPTION value="2.25">Kalfsvleeskroket €2.25</OPTION>
+                <OPTION value="2.30">Kipburger €2.30</OPTION>
+                <OPTION value="3.25">Kipfingers €3.25</OPTION>
+                <OPTION value="2.20">Kipkorn €2.20</OPTION>
+                <OPTION value="3.25">Kipnuggets €3.25</OPTION>
+                <OPTION value="3.50">Kipschnitsel €3.50</OPTION>
+                <OPTION value="2.40">Kwekkeboom kroket €2.40</OPTION>
+                <OPTION value="3.50">Loempia €3.50</OPTION>
+                <OPTION value="2.50">Mexicano (trekkerband) €2.50</OPTION>
+                <OPTION value="2.20">Nasischijf €2.20</OPTION>
+                <OPTION value="2.20">Pikanto €2.20</OPTION>
+                <OPTION value="2.50">Mexicano (trekkerband) €2.50</OPTION>
+                <OPTION value="2.25">Sajoerakroket €2.25</OPTION>
+                <OPTION value="2.25">Satékroket €2.25</OPTION>
+                <OPTION value="2.40">Satérol €2.40</OPTION>
+                <OPTION value="3.00">Satéstick €3.00</OPTION>
+                <OPTION value="2.70">Shoarmarol €2.70</OPTION>
+                <OPTION value="3.20">Sjaslick €3.20</OPTION>
+                <OPTION value="2.50">Smulrol €2.50</OPTION>
+                <OPTION value="2.70">Turkeystick €2.70</OPTION>
+                <OPTION value="2.40">Van Dobben kroket €2.40</OPTION>
+                <OPTION value="5.25">Varkenssaté €5.25</OPTION>
+                <OPTION value="2.20">Viandel €2.20</OPTION>
+                <OPTION value="2.50">Vlampijp €2.50</OPTION>
+                <OPTION value="2.00">Vleeskroket €2.00</OPTION>
+
+
+                <OPTION value="3.50">Broodje gezond €3.50</OPTION>
+                <OPTION value="2.25">Broodje ham of kaas €2.25</OPTION>
+                <OPTION value="2.25">Broodje ei €2.25</OPTION>
+                <OPTION value="3.00">Broodje tartaar €3.00</OPTION>
+                <OPTION value="2.75">Broodje kroket €2.75</OPTION>
+                <OPTION value="2.75">Broodje frikandel €2.75</OPTION>
+                <OPTION value="4.25">Broodje joppieburger €4.25</OPTION>
+                <OPTION value="4.25">Broodje cheeseburger €4.25</OPTION>
+                <OPTION value="4.25">Broodje hawaïburger €4.25</OPTION>
+                <OPTION value="3.50">Broodje hamburger €3.50</OPTION>
+                <OPTION value="3.50">Broodje kipburger €3.50</OPTION>
+                <OPTION value="4.25">Broodje hamburger speciaal €4.25</OPTION>
+                <OPTION value="5.00">Broodje warm vlees €3.50</OPTION>
+                <OPTION value="5.00">Broodje beenham €5.00</OPTION>
+
+                <OPTION value="5.95">Stokbroodje gezond €5.95</OPTION>
+                <OPTION value="5.95">Stokbroodje ham/kaas/salami €5.95</OPTION>
+                <OPTION value="5.95">Stokbroodje brie €5.95</OPTION>
+                <OPTION value="5.95">Stokbroodje kipkerriesalade €5.95</OPTION>
+                <OPTION value="5.95">Stokroodje eiersalade €5.95</OPTION>
+                <OPTION value="5.95">Stokbroodje tartaar €5.95</OPTION>
+                <OPTION value="5.95">Stokbroodje Hawaï €5.95</OPTION>
+                <OPTION value="6.75">Stokbroodje beenham €6.75</OPTION>
+                <OPTION value="6.75">Stokbroodje tonijn €6.75</OPTION>
+                <OPTION value="6.75">Stokbroodje gehakt en spekjes €6.75</OPTION>
+                <OPTION value="6.75">Stokbroodje shoarma €6.75</OPTION>
+                <OPTION value="6.75">Stokbroodje warm vlees €6.75</OPTION>
+                <OPTION value="8.50">Stokbroodje kapsalon €8.50</OPTION>
+
+                </SELECT>
+                <SELECT class = "select-font" NAME="saus3Item" onChange="calculatePrice()" id="saus3Item">
+                    <OPTION value="0">Geen saus</OPTION>
+                    <OPTION value="0.50">Mayonaise portie €0.50</OPTION>
+                    <OPTION value="0.75">Mayonaise kleine beker €0.75</OPTION>
+                    <OPTION value="1.50">Mayonaise grote beker €1.50</OPTION>
+                    <OPTION value="0.50">Ketchup portie €0.50</OPTION>
+                    <OPTION value="0.75">Ketchup kleine beker €0.75</OPTION>
+                    <OPTION value="1.50">Ketchup grote beker €1.50</OPTION>
+                    <OPTION value="0.60">Curry portie €0.60</OPTION>
+                    <OPTION value="1.25">Curry kleine beker €1.25</OPTION>
+                    <OPTION value="2.00">Curry grote beker €2.00</OPTION>
+                    <OPTION value="0.60">Speciaal portie €0.60</OPTION>
+                    <OPTION value="1.25">Speciaal kleine beker €1.25</OPTION>
+                    <OPTION value="2.00">Speciaal grote beker €2.00</OPTION>
+                    <OPTION value="0.70">Pindasaus portie €0.70</OPTION>
+                    <OPTION value="1.25">Pindasaus kleine beker €1.25</OPTION>
+                    <OPTION value="2.00">Pindasaus grote beker €2.00</OPTION>
+                    <OPTION value="0.60">Joppiesaus portie €0.60</OPTION>
+                    <OPTION value="1.00">Joppiesaus kleine beker €1.25</OPTION>
+                    <OPTION value="2.00">Joppiesaus grote beker €2.00</OPTION>
+                    <OPTION value="0.70">Knoflooksaus €0.70</OPTION>
+                    <OPTION value="0.70">Shoarmasaus €0.70</OPTION>
+                    <OPTION value="0.70">Remouladesaus €0.70</OPTION>
+                    <OPTION value="0.70">Oorlog (ui) €0.70</OPTION>
+                    <OPTION value="0.60">Appelmoes €0.60</OPTION>
+                    <OPTION value="0.70">Chilisaus/vlammensaus €0.70</OPTION>
+                </SELECT>
+            </div>
+            <div class="snackbox">
+                4:    
+                <SELECT class = "select-font" NAME="snack4Item" onChange="calculatePrice()" id="snack4Item">
+                <OPTION value="0">Kies snack</OPTION>
+                <OPTION value="2">Patat klein €2.00</OPTION>
+                <OPTION value="2.25">Patat normaal €2.25</OPTION>
+                <OPTION value="7.50">Patat 'Smulpaap' €7.50</OPTION>
+                <OPTION value="7.50">Patat shoarma €7.50</OPTION>
+                <OPTION value="7.50">Patat stoofvlees €7.50</OPTION>
+                <OPTION value="7.50">Patat boeren (boerenpatat) €7.50</OPTION>
+                <OPTION value="9.50">Patat Kapsalon €9.50</OPTION>
+
+                <OPTION value="2.50">Milkshake klein €2.50</OPTION>
+                <OPTION value="3.00">Milkshake middel €3.00</OPTION>
+                <OPTION value="3.50">Milkshake groot €3.50</OPTION>
+
+                <OPTION value="2.20">Bamischijf €2.20</OPTION>
+                <OPTION value="2.70">Berehap €2.70</OPTION>
+                <OPTION value="3.25">Bitterballen €3.25</OPTION>
+                <OPTION value="2.40">Boerenbrok €2.40</OPTION>
+                <OPTION value="2.30">Braadworst €2.30</OPTION>
+                <OPTION value="2.75">Eierbal €2.75</OPTION>
+                <OPTION value="2.00">Frikandel €2.00</OPTION>
+                <OPTION value="2.50">Frikandel speciaal €2.50</OPTION>
+                <OPTION value="3.40">Frikandel XXL €3.40</OPTION>
+                <OPTION value="3.30">Gehaktbal (jalalala) €3.30</OPTION>
+                <OPTION value="2.25">Goulashkroket €2.25</OPTION>               
+                <OPTION value="2.25">Groentekroket €2.25</OPTION>
+                <OPTION value="5.50">Halve kip €5.50</OPTION>
+                <OPTION value="2.30">Hamburger €2.30</OPTION>
+                <OPTION value="2.00">Ham-kaassouflé €2.00</OPTION>
+                <OPTION value="2.40">Hete donder €2.40</OPTION>
+                <OPTION value="2.50">Huzarensalade €2.50</OPTION>
+                <OPTION value="2.25">Kaaskroket €2.25</OPTION>  
+                <OPTION value="2.00">Kaassouflé €2.00</OPTION>
+                <OPTION value="2.25">Kalfsvleeskroket €2.25</OPTION>
+                <OPTION value="2.30">Kipburger €2.30</OPTION>
+                <OPTION value="3.25">Kipfingers €3.25</OPTION>
+                <OPTION value="2.20">Kipkorn €2.20</OPTION>
+                <OPTION value="3.25">Kipnuggets €3.25</OPTION>
+                <OPTION value="3.50">Kipschnitsel €3.50</OPTION>
+                <OPTION value="2.40">Kwekkeboom kroket €2.40</OPTION>
+                <OPTION value="3.50">Loempia €3.50</OPTION>
+                <OPTION value="2.50">Mexicano (trekkerband) €2.50</OPTION>
+                <OPTION value="2.20">Nasischijf €2.20</OPTION>
+                <OPTION value="2.20">Pikanto €2.20</OPTION>
+                <OPTION value="2.50">Mexicano (trekkerband) €2.50</OPTION>
+                <OPTION value="2.25">Sajoerakroket €2.25</OPTION>
+                <OPTION value="2.25">Satékroket €2.25</OPTION>
+                <OPTION value="2.40">Satérol €2.40</OPTION>
+                <OPTION value="3.00">Satéstick €3.00</OPTION>
+                <OPTION value="2.70">Shoarmarol €2.70</OPTION>
+                <OPTION value="3.20">Sjaslick €3.20</OPTION>
+                <OPTION value="2.50">Smulrol €2.50</OPTION>
+                <OPTION value="2.70">Turkeystick €2.70</OPTION>
+                <OPTION value="2.40">Van Dobben kroket €2.40</OPTION>
+                <OPTION value="5.25">Varkenssaté €5.25</OPTION>
+                <OPTION value="2.20">Viandel €2.20</OPTION>
+                <OPTION value="2.50">Vlampijp €2.50</OPTION>
+                <OPTION value="2.00">Vleeskroket €2.00</OPTION>
+
+
+                <OPTION value="3.50">Broodje gezond €3.50</OPTION>
+                <OPTION value="2.25">Broodje ham of kaas €2.25</OPTION>
+                <OPTION value="2.25">Broodje ei €2.25</OPTION>
+                <OPTION value="3.00">Broodje tartaar €3.00</OPTION>
+                <OPTION value="2.75">Broodje kroket €2.75</OPTION>
+                <OPTION value="2.75">Broodje frikandel €2.75</OPTION>
+                <OPTION value="4.25">Broodje joppieburger €4.25</OPTION>
+                <OPTION value="4.25">Broodje cheeseburger €4.25</OPTION>
+                <OPTION value="4.25">Broodje hawaïburger €4.25</OPTION>
+                <OPTION value="3.50">Broodje hamburger €3.50</OPTION>
+                <OPTION value="3.50">Broodje kipburger €3.50</OPTION>
+                <OPTION value="4.25">Broodje hamburger speciaal €4.25</OPTION>
+                <OPTION value="5.00">Broodje warm vlees €3.50</OPTION>
+                <OPTION value="5.00">Broodje beenham €5.00</OPTION>
+
+                <OPTION value="5.95">Stokbroodje gezond €5.95</OPTION>
+                <OPTION value="5.95">Stokbroodje ham/kaas/salami €5.95</OPTION>
+                <OPTION value="5.95">Stokbroodje brie €5.95</OPTION>
+                <OPTION value="5.95">Stokbroodje kipkerriesalade €5.95</OPTION>
+                <OPTION value="5.95">Stokroodje eiersalade €5.95</OPTION>
+                <OPTION value="5.95">Stokbroodje tartaar €5.95</OPTION>
+                <OPTION value="5.95">Stokbroodje Hawaï €5.95</OPTION>
+                <OPTION value="6.75">Stokbroodje beenham €6.75</OPTION>
+                <OPTION value="6.75">Stokbroodje tonijn €6.75</OPTION>
+                <OPTION value="6.75">Stokbroodje gehakt en spekjes €6.75</OPTION>
+                <OPTION value="6.75">Stokbroodje shoarma €6.75</OPTION>
+                <OPTION value="6.75">Stokbroodje warm vlees €6.75</OPTION>
+                <OPTION value="8.50">Stokbroodje kapsalon €8.50</OPTION>
+
+                </SELECT>
+                <SELECT class = "select-font" NAME="saus4Item" onChange="calculatePrice()" id="saus4Item">
+                    <OPTION value="0">Geen saus</OPTION>
+                    <OPTION value="0.50">Mayonaise portie €0.50</OPTION>
+                    <OPTION value="0.75">Mayonaise kleine beker €0.75</OPTION>
+                    <OPTION value="1.50">Mayonaise grote beker €1.50</OPTION>
+                    <OPTION value="0.50">Ketchup portie €0.50</OPTION>
+                    <OPTION value="0.75">Ketchup kleine beker €0.75</OPTION>
+                    <OPTION value="1.50">Ketchup grote beker €1.50</OPTION>
+                    <OPTION value="0.60">Curry portie €0.60</OPTION>
+                    <OPTION value="1.25">Curry kleine beker €1.25</OPTION>
+                    <OPTION value="2.00">Curry grote beker €2.00</OPTION>
+                    <OPTION value="0.60">Speciaal portie €0.60</OPTION>
+                    <OPTION value="1.25">Speciaal kleine beker €1.25</OPTION>
+                    <OPTION value="2.00">Speciaal grote beker €2.00</OPTION>
+                    <OPTION value="0.70">Pindasaus portie €0.70</OPTION>
+                    <OPTION value="1.25">Pindasaus kleine beker €1.25</OPTION>
+                    <OPTION value="2.00">Pindasaus grote beker €2.00</OPTION>
+                    <OPTION value="0.60">Joppiesaus portie €0.60</OPTION>
+                    <OPTION value="1.00">Joppiesaus kleine beker €1.25</OPTION>
+                    <OPTION value="2.00">Joppiesaus grote beker €2.00</OPTION>
+                    <OPTION value="0.70">Knoflooksaus €0.70</OPTION>
+                    <OPTION value="0.70">Shoarmasaus €0.70</OPTION>
+                    <OPTION value="0.70">Remouladesaus €0.70</OPTION>
+                    <OPTION value="0.70">Oorlog (ui) €0.70</OPTION>
+                    <OPTION value="0.60">Appelmoes €0.60</OPTION>
+                    <OPTION value="0.70">Chilisaus/vlammensaus €0.70</OPTION>
+                </SELECT>
+            </div>
+            <div class="snackbox">
+                5:    
+                <SELECT class = "select-font" NAME="snack5Item" onChange="calculatePrice()" id="snack5Item">
+                <OPTION value="0">Kies snack</OPTION>
+                <OPTION value="2">Patat klein €2.00</OPTION>
+                <OPTION value="2.25">Patat normaal €2.25</OPTION>
+                <OPTION value="7.50">Patat 'Smulpaap' €7.50</OPTION>
+                <OPTION value="7.50">Patat shoarma €7.50</OPTION>
+                <OPTION value="7.50">Patat stoofvlees €7.50</OPTION>
+                <OPTION value="7.50">Patat boeren (boerenpatat) €7.50</OPTION>
+                <OPTION value="9.50">Patat Kapsalon €9.50</OPTION>
+
+                <OPTION value="2.50">Milkshake klein €2.50</OPTION>
+                <OPTION value="3.00">Milkshake middel €3.00</OPTION>
+                <OPTION value="3.50">Milkshake groot €3.50</OPTION>
+
+                <OPTION value="2.20">Bamischijf €2.20</OPTION>
+                <OPTION value="2.70">Berehap €2.70</OPTION>
+                <OPTION value="3.25">Bitterballen €3.25</OPTION>
+                <OPTION value="2.40">Boerenbrok €2.40</OPTION>
+                <OPTION value="2.30">Braadworst €2.30</OPTION>
+                <OPTION value="2.75">Eierbal €2.75</OPTION>
+                <OPTION value="2.00">Frikandel €2.00</OPTION>
+                <OPTION value="2.50">Frikandel speciaal €2.50</OPTION>
+                <OPTION value="3.40">Frikandel XXL €3.40</OPTION>
+                <OPTION value="3.30">Gehaktbal (jalalala) €3.30</OPTION>
+                <OPTION value="2.25">Goulashkroket €2.25</OPTION>               
+                <OPTION value="2.25">Groentekroket €2.25</OPTION>
+                <OPTION value="5.50">Halve kip €5.50</OPTION>
+                <OPTION value="2.30">Hamburger €2.30</OPTION>
+                <OPTION value="2.00">Ham-kaassouflé €2.00</OPTION>
+                <OPTION value="2.40">Hete donder €2.40</OPTION>
+                <OPTION value="2.50">Huzarensalade €2.50</OPTION>
+                <OPTION value="2.25">Kaaskroket €2.25</OPTION>  
+                <OPTION value="2.00">Kaassouflé €2.00</OPTION>
+                <OPTION value="2.25">Kalfsvleeskroket €2.25</OPTION>
+                <OPTION value="2.30">Kipburger €2.30</OPTION>
+                <OPTION value="3.25">Kipfingers €3.25</OPTION>
+                <OPTION value="2.20">Kipkorn €2.20</OPTION>
+                <OPTION value="3.25">Kipnuggets €3.25</OPTION>
+                <OPTION value="3.50">Kipschnitsel €3.50</OPTION>
+                <OPTION value="2.40">Kwekkeboom kroket €2.40</OPTION>
+                <OPTION value="3.50">Loempia €3.50</OPTION>
+                <OPTION value="2.50">Mexicano (trekkerband) €2.50</OPTION>
+                <OPTION value="2.20">Nasischijf €2.20</OPTION>
+                <OPTION value="2.20">Pikanto €2.20</OPTION>
+                <OPTION value="2.50">Mexicano (trekkerband) €2.50</OPTION>
+                <OPTION value="2.25">Sajoerakroket €2.25</OPTION>
+                <OPTION value="2.25">Satékroket €2.25</OPTION>
+                <OPTION value="2.40">Satérol €2.40</OPTION>
+                <OPTION value="3.00">Satéstick €3.00</OPTION>
+                <OPTION value="2.70">Shoarmarol €2.70</OPTION>
+                <OPTION value="3.20">Sjaslick €3.20</OPTION>
+                <OPTION value="2.50">Smulrol €2.50</OPTION>
+                <OPTION value="2.70">Turkeystick €2.70</OPTION>
+                <OPTION value="2.40">Van Dobben kroket €2.40</OPTION>
+                <OPTION value="5.25">Varkenssaté €5.25</OPTION>
+                <OPTION value="2.20">Viandel €2.20</OPTION>
+                <OPTION value="2.50">Vlampijp €2.50</OPTION>
+                <OPTION value="2.00">Vleeskroket €2.00</OPTION>
+
+
+                <OPTION value="3.50">Broodje gezond €3.50</OPTION>
+                <OPTION value="2.25">Broodje ham of kaas €2.25</OPTION>
+                <OPTION value="2.25">Broodje ei €2.25</OPTION>
+                <OPTION value="3.00">Broodje tartaar €3.00</OPTION>
+                <OPTION value="2.75">Broodje kroket €2.75</OPTION>
+                <OPTION value="2.75">Broodje frikandel €2.75</OPTION>
+                <OPTION value="4.25">Broodje joppieburger €4.25</OPTION>
+                <OPTION value="4.25">Broodje cheeseburger €4.25</OPTION>
+                <OPTION value="4.25">Broodje hawaïburger €4.25</OPTION>
+                <OPTION value="3.50">Broodje hamburger €3.50</OPTION>
+                <OPTION value="3.50">Broodje kipburger €3.50</OPTION>
+                <OPTION value="4.25">Broodje hamburger speciaal €4.25</OPTION>
+                <OPTION value="5.00">Broodje warm vlees €3.50</OPTION>
+                <OPTION value="5.00">Broodje beenham €5.00</OPTION>
+
+                <OPTION value="5.95">Stokbroodje gezond €5.95</OPTION>
+                <OPTION value="5.95">Stokbroodje ham/kaas/salami €5.95</OPTION>
+                <OPTION value="5.95">Stokbroodje brie €5.95</OPTION>
+                <OPTION value="5.95">Stokbroodje kipkerriesalade €5.95</OPTION>
+                <OPTION value="5.95">Stokroodje eiersalade €5.95</OPTION>
+                <OPTION value="5.95">Stokbroodje tartaar €5.95</OPTION>
+                <OPTION value="5.95">Stokbroodje Hawaï €5.95</OPTION>
+                <OPTION value="6.75">Stokbroodje beenham €6.75</OPTION>
+                <OPTION value="6.75">Stokbroodje tonijn €6.75</OPTION>
+                <OPTION value="6.75">Stokbroodje gehakt en spekjes €6.75</OPTION>
+                <OPTION value="6.75">Stokbroodje shoarma €6.75</OPTION>
+                <OPTION value="6.75">Stokbroodje warm vlees €6.75</OPTION>
+                <OPTION value="8.50">Stokbroodje kapsalon €8.50</OPTION>
+
+                </SELECT>
+                <SELECT class = "select-font" NAME="saus5Item" onChange="calculatePrice()" id="saus5Item">
+                    <OPTION value="0">Geen saus</OPTION>
+                    <OPTION value="0.50">Mayonaise portie €0.50</OPTION>
+                    <OPTION value="0.75">Mayonaise kleine beker €0.75</OPTION>
+                    <OPTION value="1.50">Mayonaise grote beker €1.50</OPTION>
+                    <OPTION value="0.50">Ketchup portie €0.50</OPTION>
+                    <OPTION value="0.75">Ketchup kleine beker €0.75</OPTION>
+                    <OPTION value="1.50">Ketchup grote beker €1.50</OPTION>
+                    <OPTION value="0.60">Curry portie €0.60</OPTION>
+                    <OPTION value="1.25">Curry kleine beker €1.25</OPTION>
+                    <OPTION value="2.00">Curry grote beker €2.00</OPTION>
+                    <OPTION value="0.60">Speciaal portie €0.60</OPTION>
+                    <OPTION value="1.25">Speciaal kleine beker €1.25</OPTION>
+                    <OPTION value="2.00">Speciaal grote beker €2.00</OPTION>
+                    <OPTION value="0.70">Pindasaus portie €0.70</OPTION>
+                    <OPTION value="1.25">Pindasaus kleine beker €1.25</OPTION>
+                    <OPTION value="2.00">Pindasaus grote beker €2.00</OPTION>
+                    <OPTION value="0.60">Joppiesaus portie €0.60</OPTION>
+                    <OPTION value="1.00">Joppiesaus kleine beker €1.25</OPTION>
+                    <OPTION value="2.00">Joppiesaus grote beker €2.00</OPTION>
+                    <OPTION value="0.70">Knoflooksaus €0.70</OPTION>
+                    <OPTION value="0.70">Shoarmasaus €0.70</OPTION>
+                    <OPTION value="0.70">Remouladesaus €0.70</OPTION>
+                    <OPTION value="0.70">Oorlog (ui) €0.70</OPTION>
+                    <OPTION value="0.60">Appelmoes €0.60</OPTION>
+                    <OPTION value="0.70">Chilisaus/vlammensaus €0.70</OPTION>
+                </SELECT>
+            </div>
+
+            <div class="snackbox">
+                6:    
+                <SELECT class = "select-font" NAME="snack6Item" onChange="calculatePrice()" id="snack6Item">
+                <OPTION value="0">Kies snack</OPTION>
+                <OPTION value="2">Patat klein €2.00</OPTION>
+                <OPTION value="2.25">Patat normaal €2.25</OPTION>
+                <OPTION value="7.50">Patat 'Smulpaap' €7.50</OPTION>
+                <OPTION value="7.50">Patat shoarma €7.50</OPTION>
+                <OPTION value="7.50">Patat stoofvlees €7.50</OPTION>
+                <OPTION value="7.50">Patat boeren (boerenpatat) €7.50</OPTION>
+                <OPTION value="9.50">Patat Kapsalon €9.50</OPTION>
+
+                <OPTION value="2.50">Milkshake klein €2.50</OPTION>
+                <OPTION value="3.00">Milkshake middel €3.00</OPTION>
+                <OPTION value="3.50">Milkshake groot €3.50</OPTION>
+
+                <OPTION value="2.20">Bamischijf €2.20</OPTION>
+                <OPTION value="2.70">Berehap €2.70</OPTION>
+                <OPTION value="3.25">Bitterballen €3.25</OPTION>
+                <OPTION value="2.40">Boerenbrok €2.40</OPTION>
+                <OPTION value="2.30">Braadworst €2.30</OPTION>
+                <OPTION value="2.75">Eierbal €2.75</OPTION>
+                <OPTION value="2.00">Frikandel €2.00</OPTION>
+                <OPTION value="2.50">Frikandel speciaal €2.50</OPTION>
+                <OPTION value="3.40">Frikandel XXL €3.40</OPTION>
+                <OPTION value="3.30">Gehaktbal (jalalala) €3.30</OPTION>
+                <OPTION value="2.25">Goulashkroket €2.25</OPTION>               
+                <OPTION value="2.25">Groentekroket €2.25</OPTION>
+                <OPTION value="5.50">Halve kip €5.50</OPTION>
+                <OPTION value="2.30">Hamburger €2.30</OPTION>
+                <OPTION value="2.00">Ham-kaassouflé €2.00</OPTION>
+                <OPTION value="2.40">Hete donder €2.40</OPTION>
+                <OPTION value="2.50">Huzarensalade €2.50</OPTION>
+                <OPTION value="2.25">Kaaskroket €2.25</OPTION>  
+                <OPTION value="2.00">Kaassouflé €2.00</OPTION>
+                <OPTION value="2.25">Kalfsvleeskroket €2.25</OPTION>
+                <OPTION value="2.30">Kipburger €2.30</OPTION>
+                <OPTION value="3.25">Kipfingers €3.25</OPTION>
+                <OPTION value="2.20">Kipkorn €2.20</OPTION>
+                <OPTION value="3.25">Kipnuggets €3.25</OPTION>
+                <OPTION value="3.50">Kipschnitsel €3.50</OPTION>
+                <OPTION value="2.40">Kwekkeboom kroket €2.40</OPTION>
+                <OPTION value="3.50">Loempia €3.50</OPTION>
+                <OPTION value="2.50">Mexicano (trekkerband) €2.50</OPTION>
+                <OPTION value="2.20">Nasischijf €2.20</OPTION>
+                <OPTION value="2.20">Pikanto €2.20</OPTION>
+                <OPTION value="2.50">Mexicano (trekkerband) €2.50</OPTION>
+                <OPTION value="2.25">Sajoerakroket €2.25</OPTION>
+                <OPTION value="2.25">Satékroket €2.25</OPTION>
+                <OPTION value="2.40">Satérol €2.40</OPTION>
+                <OPTION value="3.00">Satéstick €3.00</OPTION>
+                <OPTION value="2.70">Shoarmarol €2.70</OPTION>
+                <OPTION value="3.20">Sjaslick €3.20</OPTION>
+                <OPTION value="2.50">Smulrol €2.50</OPTION>
+                <OPTION value="2.70">Turkeystick €2.70</OPTION>
+                <OPTION value="2.40">Van Dobben kroket €2.40</OPTION>
+                <OPTION value="5.25">Varkenssaté €5.25</OPTION>
+                <OPTION value="2.20">Viandel €2.20</OPTION>
+                <OPTION value="2.50">Vlampijp €2.50</OPTION>
+                <OPTION value="2.00">Vleeskroket €2.00</OPTION>
+
+
+                <OPTION value="3.50">Broodje gezond €3.50</OPTION>
+                <OPTION value="2.25">Broodje ham of kaas €2.25</OPTION>
+                <OPTION value="2.25">Broodje ei €2.25</OPTION>
+                <OPTION value="3.00">Broodje tartaar €3.00</OPTION>
+                <OPTION value="2.75">Broodje kroket €2.75</OPTION>
+                <OPTION value="2.75">Broodje frikandel €2.75</OPTION>
+                <OPTION value="4.25">Broodje joppieburger €4.25</OPTION>
+                <OPTION value="4.25">Broodje cheeseburger €4.25</OPTION>
+                <OPTION value="4.25">Broodje hawaïburger €4.25</OPTION>
+                <OPTION value="3.50">Broodje hamburger €3.50</OPTION>
+                <OPTION value="3.50">Broodje kipburger €3.50</OPTION>
+                <OPTION value="4.25">Broodje hamburger speciaal €4.25</OPTION>
+                <OPTION value="5.00">Broodje warm vlees €3.50</OPTION>
+                <OPTION value="5.00">Broodje beenham €5.00</OPTION>
+
+                <OPTION value="5.95">Stokbroodje gezond €5.95</OPTION>
+                <OPTION value="5.95">Stokbroodje ham/kaas/salami €5.95</OPTION>
+                <OPTION value="5.95">Stokbroodje brie €5.95</OPTION>
+                <OPTION value="5.95">Stokbroodje kipkerriesalade €5.95</OPTION>
+                <OPTION value="5.95">Stokroodje eiersalade €5.95</OPTION>
+                <OPTION value="5.95">Stokbroodje tartaar €5.95</OPTION>
+                <OPTION value="5.95">Stokbroodje Hawaï €5.95</OPTION>
+                <OPTION value="6.75">Stokbroodje beenham €6.75</OPTION>
+                <OPTION value="6.75">Stokbroodje tonijn €6.75</OPTION>
+                <OPTION value="6.75">Stokbroodje gehakt en spekjes €6.75</OPTION>
+                <OPTION value="6.75">Stokbroodje shoarma €6.75</OPTION>
+                <OPTION value="6.75">Stokbroodje warm vlees €6.75</OPTION>
+                <OPTION value="8.50">Stokbroodje kapsalon €8.50</OPTION>
+
+                </SELECT>
+                <SELECT class = "select-font" NAME="saus6Item" onChange="calculatePrice()" id="saus6Item">
+                    <OPTION value="0">Geen saus</OPTION>
+                    <OPTION value="0.50">Mayonaise portie €0.50</OPTION>
+                    <OPTION value="0.75">Mayonaise kleine beker €0.75</OPTION>
+                    <OPTION value="1.50">Mayonaise grote beker €1.50</OPTION>
+                    <OPTION value="0.50">Ketchup portie €0.50</OPTION>
+                    <OPTION value="0.75">Ketchup kleine beker €0.75</OPTION>
+                    <OPTION value="1.50">Ketchup grote beker €1.50</OPTION>
+                    <OPTION value="0.60">Curry portie €0.60</OPTION>
+                    <OPTION value="1.25">Curry kleine beker €1.25</OPTION>
+                    <OPTION value="2.00">Curry grote beker €2.00</OPTION>
+                    <OPTION value="0.60">Speciaal portie €0.60</OPTION>
+                    <OPTION value="1.25">Speciaal kleine beker €1.25</OPTION>
+                    <OPTION value="2.00">Speciaal grote beker €2.00</OPTION>
+                    <OPTION value="0.70">Pindasaus portie €0.70</OPTION>
+                    <OPTION value="1.25">Pindasaus kleine beker €1.25</OPTION>
+                    <OPTION value="2.00">Pindasaus grote beker €2.00</OPTION>
+                    <OPTION value="0.60">Joppiesaus portie €0.60</OPTION>
+                    <OPTION value="1.00">Joppiesaus kleine beker €1.25</OPTION>
+                    <OPTION value="2.00">Joppiesaus grote beker €2.00</OPTION>
+                    <OPTION value="0.70">Knoflooksaus €0.70</OPTION>
+                    <OPTION value="0.70">Shoarmasaus €0.70</OPTION>
+                    <OPTION value="0.70">Remouladesaus €0.70</OPTION>
+                    <OPTION value="0.70">Oorlog (ui) €0.70</OPTION>
+                    <OPTION value="0.60">Appelmoes €0.60</OPTION>
+                    <OPTION value="0.70">Chilisaus/vlammensaus €0.70</OPTION>
+                </SELECT>
+            </div>
+
+            <div class="snackbox">
+                7:    
+                <SELECT class = "select-font" NAME="snack7Item" onChange="calculatePrice()" id="snack7Item">
+                <OPTION value="0">Kies snack</OPTION>
+                <OPTION value="2">Patat klein €2.00</OPTION>
+                <OPTION value="2.25">Patat normaal €2.25</OPTION>
+                <OPTION value="7.50">Patat 'Smulpaap' €7.50</OPTION>
+                <OPTION value="7.50">Patat shoarma €7.50</OPTION>
+                <OPTION value="7.50">Patat stoofvlees €7.50</OPTION>
+                <OPTION value="7.50">Patat boeren (boerenpatat) €7.50</OPTION>
+                <OPTION value="9.50">Patat Kapsalon €9.50</OPTION>
+
+                <OPTION value="2.50">Milkshake klein €2.50</OPTION>
+                <OPTION value="3.00">Milkshake middel €3.00</OPTION>
+                <OPTION value="3.50">Milkshake groot €3.50</OPTION>
+
+                <OPTION value="2.20">Bamischijf €2.20</OPTION>
+                <OPTION value="2.70">Berehap €2.70</OPTION>
+                <OPTION value="3.25">Bitterballen €3.25</OPTION>
+                <OPTION value="2.40">Boerenbrok €2.40</OPTION>
+                <OPTION value="2.30">Braadworst €2.30</OPTION>
+                <OPTION value="2.75">Eierbal €2.75</OPTION>
+                <OPTION value="2.00">Frikandel €2.00</OPTION>
+                <OPTION value="2.50">Frikandel speciaal €2.50</OPTION>
+                <OPTION value="3.40">Frikandel XXL €3.40</OPTION>
+                <OPTION value="3.30">Gehaktbal (jalalala) €3.30</OPTION>
+                <OPTION value="2.25">Goulashkroket €2.25</OPTION>               
+                <OPTION value="2.25">Groentekroket €2.25</OPTION>
+                <OPTION value="5.50">Halve kip €5.50</OPTION>
+                <OPTION value="2.30">Hamburger €2.30</OPTION>
+                <OPTION value="2.00">Ham-kaassouflé €2.00</OPTION>
+                <OPTION value="2.40">Hete donder €2.40</OPTION>
+                <OPTION value="2.50">Huzarensalade €2.50</OPTION>
+                <OPTION value="2.25">Kaaskroket €2.25</OPTION>  
+                <OPTION value="2.00">Kaassouflé €2.00</OPTION>
+                <OPTION value="2.25">Kalfsvleeskroket €2.25</OPTION>
+                <OPTION value="2.30">Kipburger €2.30</OPTION>
+                <OPTION value="3.25">Kipfingers €3.25</OPTION>
+                <OPTION value="2.20">Kipkorn €2.20</OPTION>
+                <OPTION value="3.25">Kipnuggets €3.25</OPTION>
+                <OPTION value="3.50">Kipschnitsel €3.50</OPTION>
+                <OPTION value="2.40">Kwekkeboom kroket €2.40</OPTION>
+                <OPTION value="3.50">Loempia €3.50</OPTION>
+                <OPTION value="2.50">Mexicano (trekkerband) €2.50</OPTION>
+                <OPTION value="2.20">Nasischijf €2.20</OPTION>
+                <OPTION value="2.20">Pikanto €2.20</OPTION>
+                <OPTION value="2.50">Mexicano (trekkerband) €2.50</OPTION>
+                <OPTION value="2.25">Sajoerakroket €2.25</OPTION>
+                <OPTION value="2.25">Satékroket €2.25</OPTION>
+                <OPTION value="2.40">Satérol €2.40</OPTION>
+                <OPTION value="3.00">Satéstick €3.00</OPTION>
+                <OPTION value="2.70">Shoarmarol €2.70</OPTION>
+                <OPTION value="3.20">Sjaslick €3.20</OPTION>
+                <OPTION value="2.50">Smulrol €2.50</OPTION>
+                <OPTION value="2.70">Turkeystick €2.70</OPTION>
+                <OPTION value="2.40">Van Dobben kroket €2.40</OPTION>
+                <OPTION value="5.25">Varkenssaté €5.25</OPTION>
+                <OPTION value="2.20">Viandel €2.20</OPTION>
+                <OPTION value="2.50">Vlampijp €2.50</OPTION>
+                <OPTION value="2.00">Vleeskroket €2.00</OPTION>
+
+
+                <OPTION value="3.50">Broodje gezond €3.50</OPTION>
+                <OPTION value="2.25">Broodje ham of kaas €2.25</OPTION>
+                <OPTION value="2.25">Broodje ei €2.25</OPTION>
+                <OPTION value="3.00">Broodje tartaar €3.00</OPTION>
+                <OPTION value="2.75">Broodje kroket €2.75</OPTION>
+                <OPTION value="2.75">Broodje frikandel €2.75</OPTION>
+                <OPTION value="4.25">Broodje joppieburger €4.25</OPTION>
+                <OPTION value="4.25">Broodje cheeseburger €4.25</OPTION>
+                <OPTION value="4.25">Broodje hawaïburger €4.25</OPTION>
+                <OPTION value="3.50">Broodje hamburger €3.50</OPTION>
+                <OPTION value="3.50">Broodje kipburger €3.50</OPTION>
+                <OPTION value="4.25">Broodje hamburger speciaal €4.25</OPTION>
+                <OPTION value="5.00">Broodje warm vlees €3.50</OPTION>
+                <OPTION value="5.00">Broodje beenham €5.00</OPTION>
+
+                <OPTION value="5.95">Stokbroodje gezond €5.95</OPTION>
+                <OPTION value="5.95">Stokbroodje ham/kaas/salami €5.95</OPTION>
+                <OPTION value="5.95">Stokbroodje brie €5.95</OPTION>
+                <OPTION value="5.95">Stokbroodje kipkerriesalade €5.95</OPTION>
+                <OPTION value="5.95">Stokroodje eiersalade €5.95</OPTION>
+                <OPTION value="5.95">Stokbroodje tartaar €5.95</OPTION>
+                <OPTION value="5.95">Stokbroodje Hawaï €5.95</OPTION>
+                <OPTION value="6.75">Stokbroodje beenham €6.75</OPTION>
+                <OPTION value="6.75">Stokbroodje tonijn €6.75</OPTION>
+                <OPTION value="6.75">Stokbroodje gehakt en spekjes €6.75</OPTION>
+                <OPTION value="6.75">Stokbroodje shoarma €6.75</OPTION>
+                <OPTION value="6.75">Stokbroodje warm vlees €6.75</OPTION>
+                <OPTION value="8.50">Stokbroodje kapsalon €8.50</OPTION>
+
+                </SELECT>
+                <SELECT class = "select-font" NAME="saus7Item" onChange="calculatePrice()" id="saus7Item">
+                    <OPTION value="0">Geen saus</OPTION>
+                    <OPTION value="0.50">Mayonaise portie €0.50</OPTION>
+                    <OPTION value="0.75">Mayonaise kleine beker €0.75</OPTION>
+                    <OPTION value="1.50">Mayonaise grote beker €1.50</OPTION>
+                    <OPTION value="0.50">Ketchup portie €0.50</OPTION>
+                    <OPTION value="0.75">Ketchup kleine beker €0.75</OPTION>
+                    <OPTION value="1.50">Ketchup grote beker €1.50</OPTION>
+                    <OPTION value="0.60">Curry portie €0.60</OPTION>
+                    <OPTION value="1.25">Curry kleine beker €1.25</OPTION>
+                    <OPTION value="2.00">Curry grote beker €2.00</OPTION>
+                    <OPTION value="0.60">Speciaal portie €0.60</OPTION>
+                    <OPTION value="1.25">Speciaal kleine beker €1.25</OPTION>
+                    <OPTION value="2.00">Speciaal grote beker €2.00</OPTION>
+                    <OPTION value="0.70">Pindasaus portie €0.70</OPTION>
+                    <OPTION value="1.25">Pindasaus kleine beker €1.25</OPTION>
+                    <OPTION value="2.00">Pindasaus grote beker €2.00</OPTION>
+                    <OPTION value="0.60">Joppiesaus portie €0.60</OPTION>
+                    <OPTION value="1.00">Joppiesaus kleine beker €1.25</OPTION>
+                    <OPTION value="2.00">Joppiesaus grote beker €2.00</OPTION>
+                    <OPTION value="0.70">Knoflooksaus €0.70</OPTION>
+                    <OPTION value="0.70">Shoarmasaus €0.70</OPTION>
+                    <OPTION value="0.70">Remouladesaus €0.70</OPTION>
+                    <OPTION value="0.70">Oorlog (ui) €0.70</OPTION>
+                    <OPTION value="0.60">Appelmoes €0.60</OPTION>
+                    <OPTION value="0.70">Chilisaus/vlammensaus €0.70</OPTION>
+                </SELECT>
+            </div>
+            <div class="snackbox">
+                8:    
+                <SELECT class = "select-font" NAME="snack8Item" onChange="calculatePrice()" id="snack8Item">
+                <OPTION value="0">Kies snack</OPTION>
+                <OPTION value="2">Patat klein €2.00</OPTION>
+                <OPTION value="2.25">Patat normaal €2.25</OPTION>
+                <OPTION value="7.50">Patat 'Smulpaap' €7.50</OPTION>
+                <OPTION value="7.50">Patat shoarma €7.50</OPTION>
+                <OPTION value="7.50">Patat stoofvlees €7.50</OPTION>
+                <OPTION value="7.50">Patat boeren (boerenpatat) €7.50</OPTION>
+                <OPTION value="9.50">Patat Kapsalon €9.50</OPTION>
+
+                <OPTION value="2.50">Milkshake klein €2.50</OPTION>
+                <OPTION value="3.00">Milkshake middel €3.00</OPTION>
+                <OPTION value="3.50">Milkshake groot €3.50</OPTION>
+
+                <OPTION value="2.20">Bamischijf €2.20</OPTION>
+                <OPTION value="2.70">Berehap €2.70</OPTION>
+                <OPTION value="3.25">Bitterballen €3.25</OPTION>
+                <OPTION value="2.40">Boerenbrok €2.40</OPTION>
+                <OPTION value="2.30">Braadworst €2.30</OPTION>
+                <OPTION value="2.75">Eierbal €2.75</OPTION>
+                <OPTION value="2.00">Frikandel €2.00</OPTION>
+                <OPTION value="2.50">Frikandel speciaal €2.50</OPTION>
+                <OPTION value="3.40">Frikandel XXL €3.40</OPTION>
+                <OPTION value="3.30">Gehaktbal (jalalala) €3.30</OPTION>
+                <OPTION value="2.25">Goulashkroket €2.25</OPTION>               
+                <OPTION value="2.25">Groentekroket €2.25</OPTION>
+                <OPTION value="5.50">Halve kip €5.50</OPTION>
+                <OPTION value="2.30">Hamburger €2.30</OPTION>
+                <OPTION value="2.00">Ham-kaassouflé €2.00</OPTION>
+                <OPTION value="2.40">Hete donder €2.40</OPTION>
+                <OPTION value="2.50">Huzarensalade €2.50</OPTION>
+                <OPTION value="2.25">Kaaskroket €2.25</OPTION>  
+                <OPTION value="2.00">Kaassouflé €2.00</OPTION>
+                <OPTION value="2.25">Kalfsvleeskroket €2.25</OPTION>
+                <OPTION value="2.30">Kipburger €2.30</OPTION>
+                <OPTION value="3.25">Kipfingers €3.25</OPTION>
+                <OPTION value="2.20">Kipkorn €2.20</OPTION>
+                <OPTION value="3.25">Kipnuggets €3.25</OPTION>
+                <OPTION value="3.50">Kipschnitsel €3.50</OPTION>
+                <OPTION value="2.40">Kwekkeboom kroket €2.40</OPTION>
+                <OPTION value="3.50">Loempia €3.50</OPTION>
+                <OPTION value="2.50">Mexicano (trekkerband) €2.50</OPTION>
+                <OPTION value="2.20">Nasischijf €2.20</OPTION>
+                <OPTION value="2.20">Pikanto €2.20</OPTION>
+                <OPTION value="2.50">Mexicano (trekkerband) €2.50</OPTION>
+                <OPTION value="2.25">Sajoerakroket €2.25</OPTION>
+                <OPTION value="2.25">Satékroket €2.25</OPTION>
+                <OPTION value="2.40">Satérol €2.40</OPTION>
+                <OPTION value="3.00">Satéstick €3.00</OPTION>
+                <OPTION value="2.70">Shoarmarol €2.70</OPTION>
+                <OPTION value="3.20">Sjaslick €3.20</OPTION>
+                <OPTION value="2.50">Smulrol €2.50</OPTION>
+                <OPTION value="2.70">Turkeystick €2.70</OPTION>
+                <OPTION value="2.40">Van Dobben kroket €2.40</OPTION>
+                <OPTION value="5.25">Varkenssaté €5.25</OPTION>
+                <OPTION value="2.20">Viandel €2.20</OPTION>
+                <OPTION value="2.50">Vlampijp €2.50</OPTION>
+                <OPTION value="2.00">Vleeskroket €2.00</OPTION>
+
+
+                <OPTION value="3.50">Broodje gezond €3.50</OPTION>
+                <OPTION value="2.25">Broodje ham of kaas €2.25</OPTION>
+                <OPTION value="2.25">Broodje ei €2.25</OPTION>
+                <OPTION value="3.00">Broodje tartaar €3.00</OPTION>
+                <OPTION value="2.75">Broodje kroket €2.75</OPTION>
+                <OPTION value="2.75">Broodje frikandel €2.75</OPTION>
+                <OPTION value="4.25">Broodje joppieburger €4.25</OPTION>
+                <OPTION value="4.25">Broodje cheeseburger €4.25</OPTION>
+                <OPTION value="4.25">Broodje hawaïburger €4.25</OPTION>
+                <OPTION value="3.50">Broodje hamburger €3.50</OPTION>
+                <OPTION value="3.50">Broodje kipburger €3.50</OPTION>
+                <OPTION value="4.25">Broodje hamburger speciaal €4.25</OPTION>
+                <OPTION value="5.00">Broodje warm vlees €3.50</OPTION>
+                <OPTION value="5.00">Broodje beenham €5.00</OPTION>
+
+                <OPTION value="5.95">Stokbroodje gezond €5.95</OPTION>
+                <OPTION value="5.95">Stokbroodje ham/kaas/salami €5.95</OPTION>
+                <OPTION value="5.95">Stokbroodje brie €5.95</OPTION>
+                <OPTION value="5.95">Stokbroodje kipkerriesalade €5.95</OPTION>
+                <OPTION value="5.95">Stokroodje eiersalade €5.95</OPTION>
+                <OPTION value="5.95">Stokbroodje tartaar €5.95</OPTION>
+                <OPTION value="5.95">Stokbroodje Hawaï €5.95</OPTION>
+                <OPTION value="6.75">Stokbroodje beenham €6.75</OPTION>
+                <OPTION value="6.75">Stokbroodje tonijn €6.75</OPTION>
+                <OPTION value="6.75">Stokbroodje gehakt en spekjes €6.75</OPTION>
+                <OPTION value="6.75">Stokbroodje shoarma €6.75</OPTION>
+                <OPTION value="6.75">Stokbroodje warm vlees €6.75</OPTION>
+                <OPTION value="8.50">Stokbroodje kapsalon €8.50</OPTION>
+
+                </SELECT>
+                <SELECT class = "select-font" NAME="saus8Item" onChange="calculatePrice()" id="saus8Item">
+                    <OPTION value="0">Geen saus</OPTION>
+                    <OPTION value="0.50">Mayonaise portie €0.50</OPTION>
+                    <OPTION value="0.75">Mayonaise kleine beker €0.75</OPTION>
+                    <OPTION value="1.50">Mayonaise grote beker €1.50</OPTION>
+                    <OPTION value="0.50">Ketchup portie €0.50</OPTION>
+                    <OPTION value="0.75">Ketchup kleine beker €0.75</OPTION>
+                    <OPTION value="1.50">Ketchup grote beker €1.50</OPTION>
+                    <OPTION value="0.60">Curry portie €0.60</OPTION>
+                    <OPTION value="1.25">Curry kleine beker €1.25</OPTION>
+                    <OPTION value="2.00">Curry grote beker €2.00</OPTION>
+                    <OPTION value="0.60">Speciaal portie €0.60</OPTION>
+                    <OPTION value="1.25">Speciaal kleine beker €1.25</OPTION>
+                    <OPTION value="2.00">Speciaal grote beker €2.00</OPTION>
+                    <OPTION value="0.70">Pindasaus portie €0.70</OPTION>
+                    <OPTION value="1.25">Pindasaus kleine beker €1.25</OPTION>
+                    <OPTION value="2.00">Pindasaus grote beker €2.00</OPTION>
+                    <OPTION value="0.60">Joppiesaus portie €0.60</OPTION>
+                    <OPTION value="1.00">Joppiesaus kleine beker €1.25</OPTION>
+                    <OPTION value="2.00">Joppiesaus grote beker €2.00</OPTION>
+                    <OPTION value="0.70">Knoflooksaus €0.70</OPTION>
+                    <OPTION value="0.70">Shoarmasaus €0.70</OPTION>
+                    <OPTION value="0.70">Remouladesaus €0.70</OPTION>
+                    <OPTION value="0.70">Oorlog (ui) €0.70</OPTION>
+                    <OPTION value="0.60">Appelmoes €0.60</OPTION>
+                    <OPTION value="0.70">Chilisaus/vlammensaus €0.70</OPTION>
+                </SELECT>
+            </div>
         </FORM>
         <div class="snackbox"> Totaal bedrag: € <INPUT class="total-font" type="text" id="PicExtPrice" readonly></div>
         <br>
         <br>
         <div class="linktext-font">Link naar de prijslijst: <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0&ab_channel=Duran" target="_blank">Prijslijst</a></div>
+        <br>
+        <br>   
     </body>
 </html>
