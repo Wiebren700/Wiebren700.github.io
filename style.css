@@ -1,10 +1,10 @@
 
 .snackbox{
-font-size: 14;
+font-size: 10;
 text-align: center;
 color: #ffffff;
 font-family: 'Lexend Deca', sans-serif;
-padding: 10px;
+padding: 5px;
 background: #504646;
 box-sizing: border-box;
 width: 100%;
@@ -13,24 +13,24 @@ float: left;
 }
 
 .select-font {
-    font-size: 14;
+    font-size: 10;
     color: #ffffff;
-    padding: 5px;
+    padding: 2px;
     font-family: 'Lexend Deca', sans-serif;
     background: #504646;
 }
 
 .total-font {
-    font-size: 14;
+    font-size: 10;
     color: #000000;
     font-weight: bold;
-    padding: 5px;
+    padding: 2px;
     font-family: 'Lexend Deca', sans-serif;
     background: #ffffff;
 }
 
 .head-font {
-    font-size: 24;
+    font-size: 20;
     text-align: center;
     color: #fcef3b;
     font-weight: bold;
@@ -44,7 +44,7 @@ float: left;
 }
 
 .subhead-font {
-    font-size: 16;
+    font-size: 10;
     text-align: center;
     color: #009b03;
     padding: 1px;
