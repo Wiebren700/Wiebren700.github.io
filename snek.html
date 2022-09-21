@@ -21,14 +21,61 @@
             var elt = document.getElementById("saus2Item");
             var saus2 = elt.options[elt.selectedIndex].value;
 
+            var elt = document.getElementById("snack3Item");
+            var snack3 = elt.options[elt.selectedIndex].value;
+
+            var elt = document.getElementById("saus3Item");
+            var saus3 = elt.options[elt.selectedIndex].value;
+
+            var elt = document.getElementById("snack4Item");
+            var snack4 = elt.options[elt.selectedIndex].value;
+
+            var elt = document.getElementById("saus4Item");
+            var saus4 = elt.options[elt.selectedIndex].value;
+
+            var elt = document.getElementById("snack5Item");
+            var snack5 = elt.options[elt.selectedIndex].value;
+
+            var elt = document.getElementById("saus5Item");
+            var saus5 = elt.options[elt.selectedIndex].value;
+
+            var elt = document.getElementById("snack6Item");
+            var snack6 = elt.options[elt.selectedIndex].value;
+
+            var elt = document.getElementById("saus6Item");
+            var saus6 = elt.options[elt.selectedIndex].value;
+
+            var elt = document.getElementById("snack7Item");
+            var snack7 = elt.options[elt.selectedIndex].value;
+
+            var elt = document.getElementById("saus7Item");
+            var saus7 = elt.options[elt.selectedIndex].value;
+
+            var elt = document.getElementById("snack8Item");
+            var snack8 = elt.options[elt.selectedIndex].value;
+
+            var elt = document.getElementById("saus8Item");
+            var saus8 = elt.options[elt.selectedIndex].value;
+
             //convert data to integers
             snack1 = parseFloat(snack1);
             snack2 = parseFloat(snack2);
             saus1 = parseFloat(saus1);
             saus2 = parseFloat(saus2);
-
+            snack3 = parseFloat(snack3);
+            snack4 = parseFloat(snack4);
+            saus3 = parseFloat(saus3);
+            saus4 = parseFloat(saus4);
+            snack5 = parseFloat(snack5);
+            snack6 = parseFloat(snack6);
+            saus5 = parseFloat(saus5);
+            saus6 = parseFloat(saus6);
+            snack7 = parseFloat(snack7);
+            snack8 = parseFloat(snack8);
+            saus7 = parseFloat(saus7);
+            saus8 = parseFloat(saus8);
             //calculate total value  
-            var total = snack1+saus1+snack2+saus2; 
+            var total = snack1+saus1+snack2+saus2+snack3+saus3+snack4+saus4+snack5+saus5+snack6+saus6+snack7+saus7+snack8+saus8; 
             
             //print value to  PicExtPrice 
             document.getElementById("PicExtPrice").value=total;
@@ -36,6 +83,8 @@
             }
         </script>
         <div class = "head-font">
+            <br>
+            <br>
             DE SNEK CALCULATOR
             <div class = "subhead-font"> Voor het berekenen van je snack bedrag</div>
         </div>
@@ -1005,11 +1054,10 @@
                 </SELECT>
             </div>
         </FORM>
-        <div class="snackbox"> Totaal bedrag: € <INPUT class="total-font" type="text" id="PicExtPrice" readonly></div>
+        <div class="snackbox2"> Totaal bedrag: € <INPUT class="total-font" type="text" id="PicExtPrice" readonly></div>
         <br>
         <br>
         <div class="linktext-font">Link naar de prijslijst: <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0&ab_channel=Duran" target="_blank">Prijslijst</a></div>
-        <br>
-        <br>   
+        <div class="snackbox"> </div> 
     </body>
 </html>
