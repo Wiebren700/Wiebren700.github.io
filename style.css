@@ -4,7 +4,7 @@ font-size: 9;
 text-align: center;
 color: #ffffff;
 font-family: 'Lexend Deca', sans-serif;
-padding: 2px;
+padding: 8px;
 background: #504646;
 box-sizing: border-box;
 width: 100%;
@@ -20,7 +20,7 @@ float: left;
 }
 
 .total-font {
-    font-size: 12;
+    font-size: 16;
     color: #000000;
     font-weight: bold;
     padding: 2px;
