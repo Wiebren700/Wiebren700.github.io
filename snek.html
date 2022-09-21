@@ -57,12 +57,9 @@
             var elt = document.getElementById("saus8Item");
             var saus8 = elt.options[elt.selectedIndex].value;
 
-            var elt = document.getElementById("betalerBonus1");
-            var bonus1 = elt.options[elt.selectedIndex].value;
 
-            var elt = document.getElementById("betalerBonus2");
-            var bonus2 = elt.options[elt.selectedIndex].value;
-            //convert data to integers
+            
+            //convert data to float
             snack1 = parseFloat(snack1);
             snack2 = parseFloat(snack2);
             saus1 = parseFloat(saus1);
@@ -79,11 +76,17 @@
             snack8 = parseFloat(snack8);
             saus7 = parseFloat(saus7);
             saus8 = parseFloat(saus8);
-
-            bonus1 = parseFloat(bonus1);
-            bonus2= parseFloat(bonus2);            
+           
             //calculate total value  
-            var total = snack1+saus1+snack2+saus2+snack3+saus3+snack4+saus4+snack5+saus5+snack6+saus6+snack7+saus7+snack8+saus8+bonus1+bonus2; 
+
+            if(document.getElementById('betalerBonus1').checked) {
+                bonus = parseFloat(1.00)
+            }
+            else if(document.getElementById('betalerBonus2').checked) {
+                bonus = parseFloat(0.00)
+            }
+            else {bonus = parseFloat(0.00)}
+            var total = snack1+saus1+snack2+saus2+snack3+saus3+snack4+saus4+snack5+saus5+snack6+saus6+snack7+saus7+snack8+saus8+bonus; 
             
             //print value to  PicExtPrice 
             document.getElementById("PicExtPrice").value=total;
@@ -94,7 +97,7 @@
         <div class="snackbox">            </div> 
         <div class = "head-font">
             DE SNEK CALCULATOR
-            <div class = "subhead-font"> Voor het berekenen van je snack bedrag</div>
+            <div class = "subhead-font">Klein bedrag? Snacken mag!</div>
         </div>
         <div class="snackbox">            </div> 
         <div class="snackbox">            </div> 
@@ -1066,21 +1069,26 @@
 
             
         </FORM>
-        <div class="snackbox">            </div> 
-        <div class="snackbox">€1.00 bonus voor de betaler:       
+        <div class="snackbox">            </div>  
+        <div class="snackbox2">€1.00 bonus voor de betaler:       
+
+            
+            
             <label>
-            <input type="radio" name="betalerBonus1" value="1.00" onChange="calculatePrice()" id="betalerBonus1">
-            Ja
-          </label>
-          <label>
-            <input type="radio" name="betalerBonus2" onChange="calculatePrice()" value="0.00" id="betalerBonus2">
-            Nouuuu....Nee
-          </label>        </div> 
+                <input type="radio" name="betalerBonus" onChange="calculatePrice()" id="betalerBonus1" value="1.00" />
+                Ja
+            </label>
+            &nbsp &nbsp
+            <label>
+                <input type="radio" name="betalerBonus" onChange="calculatePrice()" id="betalerBonus2" value="0.00"  />
+                Nouuuu....Nee
+            </label>        
+        </div> 
+        <div class="snackbox">            </div>
         <div class="snackbox2"> Totaal bedrag: € <INPUT class="total-font" type="text" id="PicExtPrice" readonly></div>
         <div class="snackbox">            </div> 
         <div class="snackbox">            </div> 
-
-            <br>
+        <div class="snackbox3">
             Link naar de prijslijst: <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0&ab_channel=Duran" target="_blank">Prijslijst</a> &nbsp &nbsp</div>
         
     </body>
