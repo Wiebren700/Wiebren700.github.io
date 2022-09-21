@@ -1,6 +1,6 @@
 
 .snackbox{
-font-size: 10;
+font-size: 9;
 text-align: center;
 color: #ffffff;
 font-family: 'Lexend Deca', sans-serif;
@@ -13,7 +13,7 @@ float: left;
 }
 
 .select-font {
-    font-size: 10;
+    font-size: 9;
     color: #ffffff;
     padding: 2px;
     font-family: 'Lexend Deca', sans-serif;
@@ -21,7 +21,7 @@ float: left;
 }
 
 .total-font {
-    font-size: 10;
+    font-size: 9;
     color: #000000;
     font-weight: bold;
     padding: 2px;
@@ -44,7 +44,7 @@ float: left;
 }
 
 .subhead-font {
-    font-size: 10;
+    font-size: 9;
     text-align: center;
     color: #009b03;
     padding: 1px;
