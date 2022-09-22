@@ -1,0 +1,103 @@
+
+.snackbox{
+font-size: 8;
+text-align: center;
+color: #ffffff;
+font-family: 'Lexend Deca', sans-serif;
+padding: 4px;
+box-sizing: border-box;
+width: 100%;
+height: 5%;
+float: left;
+}
+
+.snackbox4{
+    font-size: 9;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 5px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 3%;
+    float: left;
+    }
+
+.snackbox2{
+    font-size: 10;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 2px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 13%;
+    float: left;
+    }
+
+.snackbox3{
+    font-size: 9;
+    text-align: right;
+    color: #ffffff;
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 1px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 5%;
+    float: left;
+    }
+
+.select-font {
+    font-size: 9;
+    color: #ffffff;
+    padding: 2px;
+    font-family: 'Lexend Deca', sans-serif;
+    background: #504646;
+}
+
+.total-font {
+    font-size: 12;
+    color: #000000;
+    font-weight: bold;
+    padding: 2px;
+    font-family: 'Lexend Deca', sans-serif;
+    background: #ffffff;
+}
+
+.head-font {
+    font-size: 30;
+    text-align: center;
+    color: #fcef3b;
+    font-weight: bold;
+    padding: 5px;
+    font-family: 'Lexend Deca', sans-serif;
+    box-sizing: border-box;
+width: 100%;
+height: 10%;
+float: left;
+}
+
+.subhead-font {
+    font-size: 16;
+    text-align: center;
+    color: #009b03;
+    padding: 1px;
+    font-family: 'Lexend Deca', sans-serif;
+    box-sizing: border-box;
+width: 100%;
+height: 15%;
+float: left;
+}
+
+.linktext-font{
+    font-size: 7;
+}
+
+.vertAline{
+    vertical-align: top;
+    position: relative;
+}
+
+.background{
+    background-image: url("logo2.png");
+}
