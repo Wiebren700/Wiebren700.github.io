@@ -101,3 +101,7 @@ float: left;
 .background{
     background-image: url("logo2.png");
 }
+
+.optGroup-font{
+    font-weight: bold;
+}
