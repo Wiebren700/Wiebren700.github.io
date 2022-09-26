@@ -99,7 +99,14 @@ float: left;
 }
 
 .background{
-    background-image: url("logo2.png");
+    background-image: url("logo.png");
+    width: 100%;
+    background-position: center;
+    background-color: #504646;
+    background-size: cover;
+    background-repeat: no-repeat
+    
+
 }
 
 .optGroup-font{
