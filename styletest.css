@@ -100,10 +100,10 @@ float: left;
 
 .background{
     background-image: url("logo.png");
-    width: 80%;
+    width: 100%;
     background-position: center;
     background-color: #504646;
-    background-size: cover;
+    background-size: 100px 100px;
     background-repeat: no-repeat
     
 
