@@ -3,8 +3,44 @@
         <title>DE SNEK CALCULATOR</title>
         <link rel="stylesheet" href="styletest.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CYZPCRTVPX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CYZPCRTVPX');
+</script>
+        <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M9VZMML');</script>
+<!-- End Google Tag Manager -->
+
     </head>
     <body class = "background">
+
+        <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CYZPCRTVPX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CYZPCRTVPX');
+</script>
+        <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M9VZMML');</script>
+<!-- End Google Tag Manager -->
+
         <script>
             function calculatePrice(myform){
 
@@ -79,14 +115,8 @@
            
             //calculate total value  
 
-            if(document.getElementById('betalerBonus1').checked) {
-                bonus = parseFloat(1.00)
-            }
-            else if(document.getElementById('betalerBonus2').checked) {
-                bonus = parseFloat(0.00)
-            }
-            else {bonus = parseFloat(0.00)}
-            var total = snack1+saus1+snack2+saus2+snack3+saus3+snack4+saus4+snack5+saus5+snack6+saus6+snack7+saus7+snack8+saus8+bonus; 
+            
+            var total = snack1+saus1+snack2+saus2+snack3+saus3+snack4+saus4+snack5+saus5+snack6+saus6+snack7+saus7+snack8+saus8; 
             
             //print value to  PicExtPrice 
             document.getElementById("PicExtPrice").value="€"+ parseFloat(total).toFixed(2);
@@ -1218,19 +1248,10 @@
             <div style="line-height:200%;">
                 <br>
             </div>
-            €1.00 bonus voor de betaler:       
-            <div style="line-height:75%;">
-                <br>
+            <div class = "slideContainer">
+                <input type="range" min = 0 max="100" value ="0" class = "slider" id="bonusRange">
             </div>
-            <label class = "vertAline">
-                <input type="radio" name="betalerBonus" onChange="calculatePrice()" id="betalerBonus1" value="1.00" />
-                Ja
-            </label>
-            &nbsp &nbsp
-            <label class = "vertAline">
-                <input type="radio" name="betalerBonus" onChange="calculatePrice()" id="betalerBonus2" value="0.00"  />
-                Nouuuu....Nee
-            </label>        
+            </div>
         </div> 
         <div class="snackbox">            </div>
         <div class="totaalTekst-style"> Totaal bedrag: <INPUT class="total-font" type="text" id="PicExtPrice" readonly></div> 
