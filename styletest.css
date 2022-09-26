@@ -24,11 +24,11 @@ float: left;
     }
 
 .totaalTekst-style{
-    font-family: sans-serif, Arial;
     font-size: 10;
     font-weight: bold;
     text-align: center;
     color: #ffffff;
+    font-family: sans-serif, Arial;
     padding: 2px;
     box-sizing: border-box;
     width: 100%;
@@ -37,10 +37,10 @@ float: left;
     }
 
 .bonus-style{
-        font-family: sans-serif, Arial;
         font-size: 10;
         text-align: center;
         color: #ffffff;
+        font-family: sans-serif, Arial;
         padding: 2px;
         box-sizing: border-box;
         width: 100%;
