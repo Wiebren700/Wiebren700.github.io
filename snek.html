@@ -97,7 +97,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             var output = document.getElementById("demo");
             var bonusShow = document.getElementById("demo2");
             output  = 0.01* slider.value;
-
+            bonusShow.innerHTML = "€"+ parseFloat(output).toFixed(2) + " ";
 
            
             slider.oninput = function(){
