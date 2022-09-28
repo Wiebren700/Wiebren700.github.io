@@ -93,7 +93,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             var elt = document.getElementById("saus8Item");
             var saus8 = elt.options[elt.selectedIndex].value;
 
+            var slider = document.getElementById("bonusRange");
+            var output = document.getElementById("demo");
+            var bonusShow = document.getElementById("demo2");
+            output  = 0.01* slider.value;
 
+
+           
+            slider.oninput = function(){
+                output = 0.01 * this.value;
+                bonusShow.innerHTML =  "€"+ parseFloat(output).toFixed(2) + " ";
+            }
             
             //convert data to float
             snack1 = parseFloat(snack1);
@@ -112,21 +122,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             snack8 = parseFloat(snack8);
             saus7 = parseFloat(saus7);
             saus8 = parseFloat(saus8);
-           
+            bonus = parseFloat(output);
             //calculate total value  
 
-            if(document.getElementById('betalerBonus1').checked) {
-                bonus = parseFloat(1.00)
-            }
-            else if(document.getElementById('betalerBonus2').checked) {
-                bonus = parseFloat(0.00)
-            }
-            else {bonus = parseFloat(0.00)}
-            var total = snack1+saus1+snack2+saus2+snack3+saus3+snack4+saus4+snack5+saus5+snack6+saus6+snack7+saus7+snack8+saus8+bonus; 
+            var total = snack1+saus1+snack2+saus2+snack3+saus3+snack4+saus4+snack5+saus5+snack6+saus6+snack7+saus7+snack8+saus8+ bonus; 
             
             //print value to  PicExtPrice 
             document.getElementById("PicExtPrice").value="€"+ parseFloat(total).toFixed(2);
-
+            document.getElementById("bonusValue").value="€"+ parseFloat(bonus).toFixed(2);
             }
         </script>
         <div class="snackbox">            </div> 
@@ -1254,19 +1257,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div style="line-height:200%;">
                 <br>
             </div>
-            €1.00 bonus voor de betaler:       
-            <div style="line-height:75%;">
+            <div class = "slideContainer">
+                <input type="range" min = 0 max="100" value ="0" class = "slider" onChange="calculatePrice()" id="bonusRange">
+            </div>
+            <div style="line-height:125%;">
                 <br>
             </div>
-            <label class = "vertAline">
-                <input type="radio" name="betalerBonus" onChange="calculatePrice()" id="betalerBonus1" value="1.00" />
-                Ja
-            </label>
-            &nbsp &nbsp
-            <label class = "vertAline">
-                <input type="radio" name="betalerBonus" onChange="calculatePrice()" id="betalerBonus2" value="0.00"  />
-                Nouuuu....Nee
-            </label>        
+            <div>
+                <span  class = "bonusEuro" id="demo2">€0.00</span><span>bonus voor de betaler</span>
+            </div>
+            </div>
         </div> 
         <div class="snackbox">            </div>
         <div class="totaalTekst-style"> Totaal bedrag: <INPUT class="total-font" type="text" id="PicExtPrice" readonly></div> 
