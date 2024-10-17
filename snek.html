@@ -40,14 +40,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-M9VZMML');</script>
 <!-- End Google Tag Manager -->
-<audio autoplay loop>
+<audio id="background-audio" autoplay loop muted>
     <source src="MensingheSong.mp3" type="audio/mpeg">
     <!-- Optionele fallback tekst -->
     Je browser ondersteunt het afspelen van audio niet.
 </audio>
         <script>
             function calculatePrice(myform){
-
+            var audio = document.getElementById("background-audio");
+            audio.muted = false;  // Unmute the audio
+            audio.play();     
             //Get selected data  
             var elt = document.getElementById("snack1Item");
             var snack1 = elt.options[elt.selectedIndex].value;
@@ -96,6 +98,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
             var elt = document.getElementById("saus8Item");
             var saus8 = elt.options[elt.selectedIndex].value;
+
+            var audio = document.getElementById("background-audio");
+            var snackSelect = document.getElementById("snack1Item");
+
+ 
 
             var slider = document.getElementById("bonusRange");
             var output = document.getElementById("demo");
